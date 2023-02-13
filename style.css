@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    width: auto;
+    overflow: scroll;
+}
+
+.header-container {
+    background-color: #1F2937;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a { 
+    text-decoration: none;
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+/* End of Header */
+
+.header-container {
+    
+}
