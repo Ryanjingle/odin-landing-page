@@ -6,17 +6,18 @@ body {
 
 .header-container {
     background-color: #1F2937;
+    padding-bottom: 200px;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
-h1 {
-    font-size: 24px;
+.nav-h1 {
+    font-size: 28px;
     color: #f9faf8;
 }
 
@@ -33,6 +34,42 @@ ul {
 
 /* End of Header */
 
-.header-container {
-    
+.hero-container {
+    margin: 100px 150px 0px 150px;
+    display: flex;
+    justify-content: space-between;
 }
+
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 54px;
+    font-weight: 400px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero-text {
+    width: 500px;
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.button-1 {
+    background: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    border: none;
+    padding: 5px 20px;
+}
+
+/* End of Hero Section */ 
+
+.section-h1 {
+
+}
+
