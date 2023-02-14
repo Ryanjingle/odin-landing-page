@@ -6,7 +6,7 @@ body {
 
 .header-container {
     background-color: #1F2937;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .nav-container {
@@ -64,12 +64,47 @@ h2 {
     border-radius: 5px;
     color: #f9faf8;
     border: none;
-    padding: 5px 20px;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.button-1:hover{
+    opacity: 60%;
 }
 
 /* End of Hero Section */ 
 
+.information-section {
+    height: 400px;
+}
+
 .section-h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.information-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.random {
+    width: 150px;
+    text-align: center;
+}
+
+.random-img {
+    border: 2px solid #3882f6;
+    width: 150px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.random-text {
+    font-size: 14px;
 
 }
 
+/* Finished with information section */
